@@ -1,7 +1,7 @@
 # Site settings
 title: Perfiffer's Blog
 SEOTitle: A Debunk Place | Perfiffer's Blog
-# header-img: img/header-back.jpg
+header-img: img/header-back.jpg
 email: perfiffer@163.com
 description: "Silly can grow up with debunk."
 keyword: "perfiffer, silly, debunk, linux, blog"
