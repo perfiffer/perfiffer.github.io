@@ -36,10 +36,10 @@ layout: default
       <div class="list-post-desc">
         {{ post.description }}
       </div>
-      <div class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </div>
       {% endif %}
+      <div class="list-post-date">
+	<time>{{ post.date | date_to_string }}</time>
+     </div>
     </a>
 
 
