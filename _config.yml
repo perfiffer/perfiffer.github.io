@@ -1,108 +1,93 @@
-# Site settings
-title: Perfiffer's Blog
-SEOTitle: A Debunk Place | Perfiffer's Blog
-# header-img: img/header-back.jpg
-email: perfiffer@163.com
-description: "Silly can grow up with debunk."
-keyword: "perfiffer, silly, debunk, linux, blog"
-url: "https://perfiffer.github.io"          # your host, for absolute URL
-baseurl: "/"      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/perfiffer/perfiffer.github.io.git" # you code repository
+# # # # # # # # # # # # #
+#   K i k o - p l u s   #
+# # # # # # # # # # # # #
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "I am perfiffer."
-sidebar-avatar: /img/deer-sir.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+# Basic
+name:               "Kiko Plus"
 
+author:
+  facebook:         your-id
+  youtubeUser:      your-id
+  youtubeChannel:   your-id
+  twitter:          your-id
+  github:           your-id
+  stackoverflow:    your-id
+  quora:            your-id
+  linkedin:         your-id
+  pinterest:        your-id
+  googlePlus:       your-id
+  instagram:        your-id
+  reddit:           your-id
+  medium:           your-id
+  tumblr:           your-id
+  email:            your-id@your-email.com
 
+copyright:
+  year:             2017
+  name:             Kiko
 
-# SNS settings
-RSS: false
-# weibo_username:     perfiffer.lu
-# zhihu_username:     perfiffer.lu
-github_username:    perfiffer
-# facebook_username:  perfiffer.lu
-jianshu_username:   12c8dec9926b
-#twitter_username:   perfiffer.lu
+# Google-analytics
+google-analytics:
+  id:               ""
 
+# Disqus
+disqus:
+  id:               "kiko-plus"
 
-
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+# URL
+url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
+# url:                "http://localhost:4000" # use this url when you develop
+baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
 
 
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Seoul
+permalink:          /:year-:month-:day/:title/
 
+# Pagination
+paginate:           5
+paginate_path:      /page:num/
 
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-highlighter: rouge
+# Markdown
+markdown:           kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input:            GFM
 
+# Navigation
+nav:
+  - name:           "About"
+    url:            "/about"
+  - name:           "Archive"
+    url:            "/archive"
+  - name:           "Tags"
+    url:            "/tags"
+  - name:           "Github"
+    url:            "https://github.com/AWEEKJ/Kiko-plus"
 
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            :compressed
 
-# 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: perfiffer
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
 
-# Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 236b7ddc38038bad0810                            #生成的clientID
-  clientSecret: 6c14082b80b0054a468c68bfca88edd914a80fd9    #生成的clientSecret
-  repo: perfiffer.github.io    #仓库名称
-  owner: perfiffer    #github用户名
-  admin: perfiffer
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-admin
 
-
-# 统计
-
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: b50bf2b12b5338a1845e33832976fd68
-
-# Google Analytics
-# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: linux-learning.cn               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
-
-
-
-# Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-
-
-# Friends
-# friends: [
-#    {
-        # title: "Linux-Learning",
-        # href: "http://www.linux-learning.cn"
-        #    },{
-        # title: "简书·苦苏",
-        # href: "https://www.jianshu.com/u/12c8dec9926b"
-        #    }
-        #]
+exclude:            [vendor]
