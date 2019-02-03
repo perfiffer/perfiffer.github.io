@@ -7,13 +7,9 @@ layout: default
     <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
   </div>
   <nav class="header-nav">
-    {% for nav in site.nav %}
-    {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-    <a href="{{ nav.url }}">{{ nav.name }}</a>
-    {% else %}
-    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
-    {% endif %}
-    {% endfor %}
+    <div class="float-button">
+    	
+    </div>
   </nav>
 </header>
 <hr />
@@ -41,8 +37,6 @@ layout: default
 	<time>{{ post.date | date_to_string }}</time>
      </div>
     </a>
-
-
   </div>
 {% endfor %}
   <!-- Pagination links -->
@@ -56,17 +50,14 @@ layout: default
 
       {% endif %}
     </span>
-
     <span class="list-pagination-next">
       {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
           next &#xE001;
         </a>
       {% else %}
-
       {% endif %}
     </span>
-
   </div>
 {% endif %}
 </div>
