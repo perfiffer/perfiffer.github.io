@@ -99,10 +99,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Linux-Learning",
-        href: "http://www.linux-learning.cn"
+        # title: "Linux-Learning",
+        # href: "http://www.linux-learning.cn"
     },{
-        title: "简书·苦苏",
-        href: "https://www.jianshu.com/u/12c8dec9926b"
+        # title: "简书·苦苏",
+        # href: "https://www.jianshu.com/u/12c8dec9926b"
     }
 ]
