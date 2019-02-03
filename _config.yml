@@ -55,13 +55,13 @@ kramdown:
   input:            GFM
 
 # Navigation
-# nav:
-# - name:           "About"
-#  url:            "/about"
-# - name:           "Archive"
-#   url:            "/archive"
-# - name:           "Tags"
-#   url:            "/tags"
+nav:
+ - name:           "About"
+   url:            "/about"
+ - name:           "Archive"
+   url:            "/archive"
+ - name:           "Tags"
+   url:            "/tags"
 # - name:           "Github"
 #   url:            "https://github.com/perfiffer"
 
