@@ -35,6 +35,12 @@ google-analytics:
 disqus:
   id:               "perfiffer"
 
+# Gitalk
+gitalk: 
+  enable: true
+  id: 236b7ddc38038bad0810
+  secret: 6c14082b80b0054a468c68bfca88edd914a80fd9
+
 # URL
 url:                "https://perfiffer.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
