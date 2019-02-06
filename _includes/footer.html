@@ -19,7 +19,7 @@
     {% endif %}
 
     {% if site.author.github %}
-    <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i></a>
     {% endif %}
 	
 	{% if site.author.stackoverflow %}
@@ -59,18 +59,18 @@
     {% endif %}
 
     {% if site.author.email %}
-    <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    <a href="mailto:{{ site.author.email }}"><i class="far fa-envelope" aria-hidden="true"></i></a>
     {% endif %}
 
     {% if site.author.jianshu %}
-    <a href="https://www.jianshu.com/u/{{ site.author.jianshu }}"><i class="fa">简</i></a>
+    <a href="https://www.jianshu.com/u/{{ site.author.jianshu }}"><i class="far">简</i></a>
     {% endif %}
 
     {% for nav in site.nav %}
     {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-    <a href="{{ nav.url }}"><i class="fa {{ nav.class }}"></i></a>
+    <a href="{{ nav.url }}"><i class="{{ nav.class }}"></i></a>
     {% else %}
-    <a href="{{ nav.url | prepend: site.baseurl }}"><i class="fa {{ nav.class }}"></i></a>
+    <a href="{{ nav.url | prepend: site.baseurl }}"><i class="{{ nav.class }}"></i></a>
     {% endif %}
     {% endfor %}
 
