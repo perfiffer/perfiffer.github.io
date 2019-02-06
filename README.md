@@ -1,4 +1,4 @@
-> NOTE! This Jekyll theme is based on kiko plus theme. and updated by myself.
+> NOTE! This Jekyll theme is based on kiko plus theme.
 
 # Kiko Plus Theme
 
@@ -59,8 +59,8 @@ author:
 
 ```yml
 copyright:
-  year:             2017
-  name:             Kiko
+  year:             2019
+  name:             perfiffer
 ```
 
 ### Google analytics
@@ -91,39 +91,12 @@ url: "https://<your-name>.github.io"
 
 - **NOTE** When if running locally, change url to 
 
-```yml
-url: "https://localhost:4000"
-```
-
 - Change this to your branch name where _gh-pages_ resides. 
 - **NOTE** apply only if you used __Method 2__ for installation.
 
 ```yml
 baseurl: "/<branch-name>"
 ```
-
-## Run in Local
-
-1. Download or clone your remote repository.
-2. Go inside folder. First, run `rake geminstall`. 
-3. Second, run `jekyll serve` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). Make sure that `url` in `_config.yml` file is `url: "https://localhost:4000"`. You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
-
-## Rakefile Usage
-
-```bash
-# Create new post
-$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
-
-# Create new draft post
-$ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
-
-# Install Jekyll Plugins. Do before running in local.
-$ rake geminstall
-
-# Run in Local
-$ rake preview
-```
-
 ## License
 
 This theme is released under MIT License.
