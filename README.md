@@ -1,14 +1,11 @@
-> NOTE! Kiko-plus theme will not be update anymore. Please see the new and easier version, [kiko-now](https://github.com/AWEEKJ/kiko-now) theme which is mixed [jekyll-now](https://github.com/barryclark/jekyll-now) and Kiko-plus.
+> NOTE! This Jekyll theme is based on kiko plus theme. and updated by myself.
 
 # Kiko Plus Theme
-
-![image](/images/image.png)
 
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
 ## Features
 
-- Disqus comment system
 - Google analytics
 - Pagination support
 - Custom tags
@@ -19,7 +16,7 @@ You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is 
 
 #### Method 1: new master's repository (The Best)
 
-1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
+1. First [fork](https://github.com/perfiffer/perfiffer.github.io) it.
 2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
 3. Access your new blog via [https://username.github.io](https://username.github.io).
 4. [See configuration](#configuration).
