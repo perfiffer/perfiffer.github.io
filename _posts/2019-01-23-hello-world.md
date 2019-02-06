@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hello World, Hello Jekyll
+comments: true
 ---
 
 <p>我的第一篇文章</p>
