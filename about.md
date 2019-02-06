@@ -9,4 +9,4 @@ permalink: /about/
 - github: <a href="https://github.com/perfiffer">https://github.com/perfiffer</a>
 
 ## 微信公众号
-
+<img src="http://perfiffer.cn/images/qrcode.jpg"></img>
