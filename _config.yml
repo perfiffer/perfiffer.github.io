@@ -56,13 +56,13 @@ kramdown:
 
 # Navigation
 nav:
- - name:           "Home"
+ - name:           "H"
    url:            ""
- - name:           "About"
-   url:            "/about"
- - name:           "Archive"
+# - name:           "About"
+#   url:            "/about"
+ - name:           "A"
    url:            "/archive"
- - name:           "Tags"
+ - name:           "T"
    url:            "/tags"
 # - name:           "Github"
 #   url:            "https://github.com/perfiffer"
