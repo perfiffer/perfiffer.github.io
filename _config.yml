@@ -57,7 +57,7 @@ kramdown:
 # Navigation
 nav:
  - name:           "H"
-   url:            ""
+   url:            "/"
 # - name:           "About"
 #   url:            "/about"
  - name:           "A"
