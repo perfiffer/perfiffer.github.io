@@ -63,7 +63,7 @@ nav:
 #   url:            "/about"
  - name:           "A"
    url:            "/archive"
-   class:          "file-archive"
+   class:          "fa-file-archive"
  - name:           "T"
    url:            "/tags"
    class:          "fa-tags"
