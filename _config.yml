@@ -58,12 +58,15 @@ kramdown:
 nav:
  - name:           "H"
    url:            "/"
+   class:          "fa-home"
 # - name:           "About"
 #   url:            "/about"
  - name:           "A"
    url:            "/archive"
+   class:          "file-archive"
  - name:           "T"
    url:            "/tags"
+   class:          "fa-tags"
 # - name:           "Github"
 #   url:            "https://github.com/perfiffer"
 

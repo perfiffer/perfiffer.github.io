@@ -68,7 +68,7 @@
 
     {% for nav in site.nav %}
     {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-    <a href="{{ nav.url }}"><i class="fa">{{ nav.name }}</i></a>
+    <a href="{{ nav.url }}"><i class="fa {{ nav.class }}"></i></a>
     {% else %}
     <a href="{{ nav.url | prepend: site.baseurl }}"><i class="fa">{{ nav.name }}</i></a>
     {% endif %}
