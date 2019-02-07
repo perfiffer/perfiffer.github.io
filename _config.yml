@@ -38,8 +38,8 @@ disqus:
 # Gitalk
 gitalk: 
   enable: true
-  clientID: 1055895b8e9a5c3ba8d8
-  clientSecret: b4a872cde2f08bab4d625c0dd152f75c0fc5606d
+  clientID: 236b7ddc38038bad0810
+  clientSecret: 6c14082b80b0054a468c68bfca88edd914a80fd9 
   repo: perfiffer.github.io
   owner: perfiffer
   admin: perfiffer
