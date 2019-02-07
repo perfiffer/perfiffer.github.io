@@ -7,11 +7,11 @@
 <script type="text/javascript">
     var gitalk = new Gitalk({
     // gitalk的主要参数
-    clientID: '1055895b8e9a5c3ba8d8',
-    clientSecret: 'b4a872cde2f08bab4d625c0dd152f75c0fc5606d',
-    repo: 'perfiffer.github.io',
-    owner: 'perfiffer',
-    admin: ['perfiffer'],
+    clientID: '{{ site.gitalk.clientID }}',
+    clientSecret: '{{ site.gitalk.clientSecret }}',
+    repo: '{{ site.gitalk.repo }}',
+    owner: '{{ site.gitalk.owner }}',
+    admin: ['{{ site.gitalk.admin }}'],
     id: location.pathname,
     distractionFreeMode: true
   });
