@@ -12,8 +12,8 @@
     repo: '{{ site.gitalk.repo }}',
     owner: '{{ site.gitalk.owner }}',
     admin: ['{{ site.gitalk.admin }}'],
-    id: '{{ site.gitalk.id }}',
-    distractionFreeMode: {{ site.gitalk.distractionFreeMode }}
+    id: location.pathname,
+    distractionFreeMode: '{{ site.gitalk.distractionFreeMode }}'
   });
     gitalk.render('gitalk-container');
 </script> 

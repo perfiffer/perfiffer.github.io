@@ -24,7 +24,7 @@ layout: default
    -->
 
    <!-- Gitalk -->
-   {% if site.gitalk.enable %}
-   {% include gitalk.html %}
+   {% if page.comments && site.gitalk.enable %}
+   {% include gitalk.swig %}
    {% endif %}
 </div>
