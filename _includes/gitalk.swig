@@ -6,7 +6,7 @@
 <script src="/js/md5.min.js"></script>
 <div id="gitalk-container"></div>    
 <script type="text/javascript">
-    var gitalk = new Gitalk({
+  var gitalk = new Gitalk({
     // gitalk的主要参数
     clientID: '{{ site.gitalk.clientID }}',
     clientSecret: '{{ site.gitalk.clientSecret }}',
@@ -16,6 +16,6 @@
     id: md5(location.pathname),
     distractionFreeMode: true
   });
-    gitalk.render('gitalk-container');
+  gitalk.render('gitalk-container');
 </script> 
 <!-- Gitalk end -->
