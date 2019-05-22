@@ -386,3 +386,17 @@ tbody tr:nth-child(odd) th {
 .right {
   text-align: right
 }
+
+.back_top {
+  position: fixed;
+  float: right;
+  right: 20px;
+  bottom: 10px;
+  background: #ccc;
+  width: 24px;
+  text-align: center;
+}
+
+.back_top a {
+  color: black;
+}
