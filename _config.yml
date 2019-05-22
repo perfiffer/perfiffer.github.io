@@ -54,8 +54,8 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           Asia/ShangHai
-permalink:          /:year-:month-:day/:title/
-
+# permalink:          /:year-:month-:day/:title/
+permalink:          pretty
 # Pagination
 paginate:           7
 paginate_path:      /page:num/
