@@ -287,7 +287,8 @@ pre {
   line-height: 1.4;
   white-space: pre;
   overflow: auto;
-  background-color: $code-background-color;
+  background-color: #2d2d2d;
+  color: #ccc;
 }
 
 pre code {
@@ -299,7 +300,7 @@ pre code {
 
 .highlight {
   margin-bottom: 1rem;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 .highlight pre {
