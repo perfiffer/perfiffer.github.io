@@ -74,10 +74,10 @@ nav:
    url:            "/about.html"
    class:          "fa fa-info"
  - name:           "A"
-   url:            /archive.html
+   url:            '/archive.html'
    class:          "fa fa-file-archive"
  - name:           "T"
-   url:            /tags.html
+   url:            '/tags.html'
    class:          "fa fa-tags"
 # - name:           "Github"
 #   url:            "https://github.com/perfiffer"
