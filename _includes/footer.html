@@ -88,6 +88,9 @@
 <script src="{{ site.baseurl }}/js/jquery.fancybox.pack.js?v=2.1.7"></script>
 <script>
 $(document).ready(function() {
-	$('img').fancybox();
+	$('img').fancybox({
+	   closeBtn : false,
+   	   closeClick: true        	   
+	});
 });
 </script>
