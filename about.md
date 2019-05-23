@@ -1,6 +1,5 @@
 ---
 title: About
-permalink: /about/
 ---
 
 ## I am perfiffer.lu
