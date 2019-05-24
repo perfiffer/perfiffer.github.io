@@ -24,6 +24,7 @@ layout: default
     {% if post.link %}
     <a href="{{ post.link }}">
     {% else %}
+    <input type="hidden" value="{{ page.url }}" />
     <a href="{{ post.url | prepend: site.baseurl }}">
     {% endif %}  
       <div class="list-post-title">
