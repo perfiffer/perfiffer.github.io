@@ -5,4 +5,4 @@ tags:
  - javascript
 ---
 ### Pictorial
-[pictorial](https://perfiffer.cn/pictorial/index.html picturial)
+[pictorial](https://perfiffer.cn/pictorial/index.html)
