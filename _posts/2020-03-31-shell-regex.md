@@ -2,8 +2,8 @@
 layout: page
 title: Shell江湖不用刀，正则表达式开路
 tags:
- - Linux
- - Shell
+ - linux
+ - shell
 ---
 Shell是Linux下的一个程序，负责与kernel交互。同时，也是一种语言，通过指令集调动kernel。想要学习Shell，正则表达式必不可少。
 
